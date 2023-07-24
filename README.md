@@ -87,7 +87,7 @@
 | `data`                 | `array(user)`    | Список пользователей   |
 | `lists`                | `array`          | Вспомогательные списки |
 | `lists[cities]`        | `array(city)`    | Города                 |
-| `lists[workPositions]` | `array`          | Должности              |
+| `lists[workPositions]` | `array(string)`  | Должности              |
 
 ### Получить список ЖК и связанных площадей
 
