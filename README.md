@@ -232,7 +232,7 @@
 | `start_date`        | `date`           | Дата начала строительства            |
 | `end_date`          | `date`           | Дата завершения строительства        |
 | `key_date`          | `date`           | Дата выдачи ключей                   |
-| `escrou`            | `number`         | Участвует в Эскроу                   |
+| `escrow`            | `number`         | Участвует в Эскроу                   |
 | `project_financing` | `bool`           | Участвует в проектном финансировании |
 | `queue`             | `number`         | Очередь строительства                |
 | `floors`            | `string`         | Этажность                            |
@@ -262,7 +262,7 @@
 | `euro_type`           | `bool`   | Еврапланировка                          |
 | `section`             | `number` | Секция                                  |
 | `floor`               | `number` | Этаж                                    |
-| `cunt_rooms`          | `number` | Количество комнат                       |
+| `count_rooms`         | `number` | Количество комнат                       |
 | `status`              | `string` | Статус                                  |
 | `price_m2`            | `number` | Цена м2                                 |
 | `type`                | `string` | Тип                                     |
@@ -272,8 +272,8 @@
 | `area_living`         | `float`  | Площадь гостинной                       |
 | `area_kitchen`        | `float`  | Плозадь кухни                           |
 | `area_su`             | `float`  | Площадь с/у                             |
-| `area_hollway`        | `float`  | Площадь коридора                        |
-| `area_wothout_bl_log` | `float`  | Площадь без балконов/лоджий             |
+| `area_hallway`        | `float`  | Площадь коридора                        |
+| `area_without_bl_log` | `float`  | Площадь без балконов/лоджий             |
 | `area_k1`             | `float`  | Площадь 1 компнаты                      |
 | `area_k2`             | `float`  | Площадь 2 компнаты                      |
 | `area_k3`             | `float`  | Площадь 3 компнаты                      |
