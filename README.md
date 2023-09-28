@@ -285,3 +285,4 @@
 | `img_floor`           | `string` | Путь к изображению планировки этажа     |
 | `img_furniture`       | `string` | Путь к изображению планировки с мебелью |
 | `apartment_type`      | `string` | Тип                                     |
+| `top_position`        | `int`    | Топ позация в продажах                  |
